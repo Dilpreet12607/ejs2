@@ -26,4 +26,4 @@ if(fileExists){
 app.get('*',(req, res)=>{
     res.render(`error`);
 });
-app.listen(3001);
+app.listen(7000);
